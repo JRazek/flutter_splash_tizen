@@ -22,7 +22,6 @@ void main() {
   }
   splashScreens.children.clear();
   XmlElement splashScreen = XmlElement(XmlName("splash-screen"));
-  splashScreen.children.clear();
   splashScreen.setAttribute("src", image);
   splashScreen.setAttribute("type", "img");
   splashScreen.setAttribute("indicator-display", "true");

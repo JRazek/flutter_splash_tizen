@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_native_splash_tizen/flutter_native_splash_tizen.dart';
+import 'package:flutter_splash_tizen/flutter_splash_tizen.dart';
 
 void main() {
   runApp(const MyApp());
