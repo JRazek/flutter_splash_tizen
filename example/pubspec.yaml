@@ -23,10 +23,9 @@ dev_dependencies:
 
 
 flutter:
-
   uses-material-design: true
 
-flutter_native_splash:
+flutter_native_splash_tizen:
   color: "#ffffff"
   image: assets/test.png
   android: true
