@@ -1,4 +1,4 @@
-# flutter_native_splash_tizen
+# flutter_splash_tizen
 
 A new flutter plugin project.
 

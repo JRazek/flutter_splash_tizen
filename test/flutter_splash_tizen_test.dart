@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_native_splash_tizen/flutter_native_splash_tizen.dart';
+import 'package:flutter_splash_tizen/flutter_splash_tizen.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('flutter_native_splash_tizen');
+  const MethodChannel channel = MethodChannel('flutter_splash_tizen');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

@@ -2,7 +2,7 @@ import 'file_utils.dart';
 import 'package:xml/xml.dart';
 
 void main() {
-  var doc = loadYamlFileSync("pubspec.yaml")?['flutter_native_splash_tizen'];
+  var doc = loadYamlFileSync("pubspec.yaml")?['flutter_splash_tizen'];
   String color = doc["color"] ?? ""; //[TODO] generation of image in this color?
   String image = doc["image"] ?? "";
   bool tizenFlag = doc["tizen"] ?? false;

@@ -1,5 +1,5 @@
-name: flutter_native_splash_tizen_example
-description: Demonstrates how to use the flutter_native_splash_tizen plugin.
+name: flutter_splash_tizen_example
+description: Demonstrates how to use the flutter_splash_tizen plugin.
 
 publish_to: 'none'
 
@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_native_splash_tizen:
+  flutter_splash_tizen:
     path: ../
 
   cupertino_icons: ^1.0.2
@@ -25,7 +25,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-flutter_native_splash_tizen:
+flutter_splash_tizen:
   color: "#ffffff"
   image: assets/test.png
   android: true

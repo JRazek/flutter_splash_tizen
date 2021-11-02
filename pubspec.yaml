@@ -1,4 +1,4 @@
-name: flutter_native_splash_tizen
+name: flutter_splash_tizen
 description: A new flutter plugin project.
 version: 0.0.1
 homepage:
@@ -24,4 +24,4 @@ flutter:
     platforms:
       tizen:
         pluginClass: FlutterNativeSplashTizenPlugin
-        fileName: flutter_native_splash_tizen_plugin.h
+        fileName: flutter_splash_tizen_plugin.h

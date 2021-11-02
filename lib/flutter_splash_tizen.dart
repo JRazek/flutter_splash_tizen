@@ -9,7 +9,7 @@ import 'package:flutter/services.dart';
 
 class FlutterNativeSplashTizen {
   static const MethodChannel _channel =
-      MethodChannel('flutter_native_splash_tizen');
+      MethodChannel('flutter_splash_tizen');
 
   static Future<String?> get platformVersion async {
     final String? version = await _channel.invokeMethod('getPlatformVersion');

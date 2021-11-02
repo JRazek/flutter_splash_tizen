@@ -1,7 +1,7 @@
 # See https://docs.tizen.org/application/tizen-studio/native-tools/project-conversion
 # for details.
 
-APPNAME = flutter_native_splash_tizen_plugin
+APPNAME = flutter_splash_tizen_plugin
 type = staticLib
 profile = common-4.0
 

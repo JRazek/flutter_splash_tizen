@@ -1,4 +1,4 @@
-#include "flutter_native_splash_tizen_plugin.h"
+#include "flutter_splash_tizen_plugin.h"
 
 // For getPlatformVersion; remove unless needed for your plugin implementation.
 #include <system_info.h>
@@ -21,7 +21,7 @@ class FlutterNativeSplashTizenPlugin : public flutter::Plugin {
   static void RegisterWithRegistrar(flutter::PluginRegistrar *registrar) {
     auto channel =
         std::make_unique<flutter::MethodChannel<flutter::EncodableValue>>(
-            registrar->messenger(), "flutter_native_splash_tizen",
+            registrar->messenger(), "flutter_splash_tizen",
             &flutter::StandardMethodCodec::GetInstance());
 
     auto plugin = std::make_unique<FlutterNativeSplashTizenPlugin>();

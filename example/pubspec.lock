@@ -83,7 +83,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
-  flutter_native_splash_tizen:
+  flutter_splash_tizen:
     dependency: "direct main"
     description:
       path: ".."
