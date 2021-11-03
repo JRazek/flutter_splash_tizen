@@ -23,13 +23,11 @@ By adding
 flutter_splash_tizen:
   image: test.png
 ```
-section in your `pubspec.yaml`
-
-and running 
+section in your `pubspec.yaml` and running 
 ```
 flutter-tizen pub run flutter_splash_tizen:create
 ```
-the image from `tizen/shared/res/test.png` will be added as splash screen. Each call of `create` will override previous. <br>
+the image from `tizen/shared/res/test.png` will be added as splash screen. Each call of `create` will override the previous. <br>
 
 If you wish to remove the splash image from your app simply run
 ```
