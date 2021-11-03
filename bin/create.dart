@@ -13,13 +13,16 @@ void main() {
   XmlDocument tizenManifest = loadXMLFileSync(tizenManifestPath);
   XmlNode el = tizenManifest.root;
 
-  XmlElement? splashScreens = el
-      .getElement("manifest")
-      ?.getElement("ui-application")
-      ?.getElement("splash-screens");
-  if (splashScreens == null) {
+  XmlElement? uiApp = el.getElement("manifest")?.getElement("ui-application");
+  if (uiApp == null) {
     throw FormatException("error when reading $tizenManifestPath");
   }
+  XmlElement? splashScreens = uiApp.getElement("splash-screens");
+  if (splashScreens == null) {
+    splashScreens = XmlElement(XmlName("splash-screen"));
+    uiApp.children.add(splashScreens);
+  }
+
   splashScreens.children.clear();
   XmlElement splashScreen = XmlElement(XmlName("splash-screen"));
   splashScreen.setAttribute("src", image);

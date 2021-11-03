@@ -21,12 +21,8 @@ dev_dependencies:
 
   flutter_lints: ^1.0.0
 
-
 flutter:
   uses-material-design: true
 
 flutter_splash_tizen:
-  color: "#ffffff"
   image: assets/test.png
-  android: true
-  tizen: true
