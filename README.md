@@ -1,18 +1,37 @@
 # flutter_splash_tizen
 
-A new flutter plugin project.
-
+Flutter-tizen package that allows to add custom splash-screen images into your apps.
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+First you should add the package to dependencies section in your `pubspec.yaml`
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+dependencies:
+  flutter_splash_tizen: ^0.0.1
+```
+After that run 
+```
+flutter-tizen pub get
+```
+in order to download all the dependencies.<br>
+```
+flutter-tizen pub get
+```
 
-The plugin project was generated without specifying the `--platforms` flag, no platforms are currently supported.
-To add platforms, run `flutter create -t plugin --platforms <platforms> .` under the same
-directory. You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms.
+By adding 
+```
+flutter_splash_tizen:
+  image: test.png
+```
+section in your `pubspec.yaml`
+
+and running 
+```
+flutter-tizen pub run flutter_splash_tizen:create
+```
+the image from `tizen/shared/res/test.png` will be added as splash screen. Each call of `create` will override previous. <br>
+
+If you wish to remove the splash image from your app simply run
+```
+flutter-tizen pub run flutter_splash_tizen:remove
+```
