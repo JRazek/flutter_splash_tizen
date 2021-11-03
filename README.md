@@ -14,9 +14,6 @@ After that run
 flutter-tizen pub get
 ```
 in order to download all the dependencies.<br>
-```
-flutter-tizen pub get
-```
 
 By adding 
 ```
