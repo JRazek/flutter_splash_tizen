@@ -5,7 +5,7 @@ Flutter-tizen package that allows to add custom splash-screen images into your a
 
 First you should add the package to dependencies section in your `pubspec.yaml`
 
-```
+```yaml
 dependencies:
   flutter_splash_tizen: ^0.0.1
 ```
@@ -16,7 +16,7 @@ flutter-tizen pub get
 in order to download all the dependencies.<br>
 
 By adding 
-```
+```yaml
 flutter_splash_tizen:
   image: test.png
 ```
